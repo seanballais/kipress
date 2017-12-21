@@ -1,1 +1,32 @@
 /* This file is for your main application css. */
+body, html {
+    background-color: #ffcc00;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+div#letter {
+    background-color: #ffa100;
+    font-size: 20rem;
+    color: white;
+
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 3%;
+    width: 25vw;
+    height: 25vw;
+
+    text-align: center;
+}
+
