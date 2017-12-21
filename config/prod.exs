@@ -53,9 +53,8 @@ config :logger, level: :info
 # Alternatively, you can configure exactly which server to
 # start per endpoint:
 #
-#     config :kipress, Kipress.Endpoint, server: true
+config :kipress, Kipress.Endpoint, server: true
 #
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-config :kipress, Kipress,Endpoint, server: true
