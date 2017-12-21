@@ -3,6 +3,7 @@ defmodule Kipress.UserSocket do
 
   ## Channels
   # channel "room:*", Kipress.RoomChannel
+  channel "lobby", Kipress.LobbyChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket

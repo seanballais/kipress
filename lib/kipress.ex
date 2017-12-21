@@ -9,7 +9,7 @@ defmodule Kipress do
     # Define workers and child supervisors to be supervised
     children = [
       # Start the Ecto repository
-      supervisor(Kipress.Repo, []),
+      #supervisor(Kipress.Repo, []),
       # Start the endpoint when the application starts
       supervisor(Kipress.Endpoint, []),
       # Start your own worker by calling: Kipress.Worker.start_link(arg1, arg2, arg3)

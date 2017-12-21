@@ -16,6 +16,7 @@ div#letter {
     background-color: #ffa100;
     font-size: 20rem;
     color: white;
+    box-shadow: 0 0 50px #1a1000;
 
     border-radius: 25%;
     display: flex;
