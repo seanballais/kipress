@@ -1,5 +1,7 @@
 # Kipress
 
+A simple web app where characters pop up when people from around the world press one in the keyboard.
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
