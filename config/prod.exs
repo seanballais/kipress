@@ -14,7 +14,8 @@ use Mix.Config
 config :kipress, Kipress.Endpoint,
   http: [port: {:system, "PORT"}],
   url: [host: "https://beneficial-prudent-goitered.gigalixirapp.com", port: 80],
-  cache_static_manifest: "priv/static/manifest.json"
+  cache_static_manifest: "priv/static/manifest.json",
+  check_origin: ["https://beneficial-prudent-goitered.gigalixirapp.com"]
 
 # Do not print debug messages in production
 config :logger, level: :info
